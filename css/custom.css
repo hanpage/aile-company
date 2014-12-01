@@ -1,0 +1,170 @@
+.intro-img {
+  background-image: url('../media/bg1.jpg');
+//  background-color: #c7c7c7;
+//  background-color: #9f9691;
+//  width: 768px;
+//  height: 576px;
+//  width: 905px;
+//  height: 960px;
+  width: 907px;
+  height: 470px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (max-width:768px) {
+  #intro.intro{
+    padding: 0;
+  }
+  .intro-img {
+//    width: 480px;
+//    height: 360px;
+//    width: 480px;
+//    height: 509px;
+      width: 480px;
+      height: 249px;
+  }
+  .intro-wrapper {
+    height:249px;
+  }
+}
+
+@media (max-width:480px) {
+  #intro.intro{
+    padding: 0;
+  }
+  .intro-img {
+//    width: 336px;
+//    height: 252px;
+    width: 336px;
+    height: 174px;
+  }
+  .intro-wrapper {
+    height:174px;
+  }
+}
+
+
+body {
+  color: #888;
+  background-color: #fff;
+}
+
+.intro-wrapper {
+//  background-color: #c7c7c7;
+  //background-image: url('../media/bgscreen.jpg'); 
+  //background-repeat: repeat-x;
+  //background-color: #9f9691;
+  background-color: #ffffff;
+}
+
+.intro-title {
+  color: #000;
+  border-color: #FFF;
+  text-shadow: -1px 0 1px #FFF;
+}
+
+.intro-description {
+  color: #000;
+}
+
+
+
+#navigation {
+  background-color: #fff;
+}
+
+.nav.navbar-nav {
+  background-color: #fff;
+}
+
+
+a,a:hover {
+	color: #c7c7c7;
+}
+
+.intro .page-scroll a {
+        color: #aaaaaa;
+	
+}
+
+.intro .page-scroll a:hover {
+	color: #c7c7c7;
+}
+
+.icon:hover .fa{
+	color: #c7c7c7;
+}
+
+ul.nav li a:hover {
+	color: #c7c7c7;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #c7c7c7;
+}
+
+.bg-skin {
+	background: #c7c7c7;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #c7c7c7;
+}
+
+footer {
+    background-color: #c7c7c7;
+}
+
+footer p {
+	color: #122F33;
+}
+
+footer a {
+	color: #122F33;
+}
+
+footer a:hover {
+	color: #324F53;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #c7c7c7;
+  border-color: #c7c7c7;
+}
+
+a .basic-color, a:hover .basic-color, a:active .basic-color, a:visited .basic-color {
+  color: #888;
+}
+
+
+/* ==========================
+Parallax
+============================= */
+
+#separator {	
+	background-image: url(../media/parallax-bg.jpg);
+}
+
+#separator .icon {
+	margin-bottom: 20px;
+}
+
+#separator span {
+	color: #fff;
+}
+
+#separator:after {	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0.7;
+	z-index: -1;
+}
