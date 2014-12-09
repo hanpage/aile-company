@@ -6,8 +6,10 @@
 //  height: 576px;
 //  width: 905px;
 //  height: 960px;
-  width: 907px;
-  height: 470px;
+//  width: 907px;
+//  height: 470px;
+  width: 960px;
+  height: 518px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -22,11 +24,13 @@
 //    height: 360px;
 //    width: 480px;
 //    height: 509px;
+//      width: 480px;
+//      height: 249px;
       width: 480px;
-      height: 249px;
+      height: 259px;
   }
   .intro-wrapper {
-    height:249px;
+    height:259px;
   }
 }
 
@@ -37,11 +41,13 @@
   .intro-img {
 //    width: 336px;
 //    height: 252px;
-    width: 336px;
-    height: 174px;
+//    width: 336px;
+//    height: 174px;
+      width: 336px;
+      height: 181px;
   }
   .intro-wrapper {
-    height:174px;
+    height:181px;
   }
 }
 
