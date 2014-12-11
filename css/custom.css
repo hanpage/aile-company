@@ -9,7 +9,7 @@
 //  width: 907px;
 //  height: 470px;
   width: 960px;
-  height: 518px;
+  height: 571px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -21,10 +21,10 @@
   }
   .intro-img {
     width: 768px;
-    height: 414px;
+    height: 457px;
   }
   .intro-wrapper {
-    height:414px;
+    height:457px;
   }
 }
 
@@ -40,10 +40,10 @@
 //      width: 480px;
 //      height: 249px;
       width: 480px;
-      height: 259px;
+      height: 286px;
   }
   .intro-wrapper {
-    height:259px;
+    height:286px;
   }
 }
 
@@ -57,10 +57,10 @@
 //    width: 336px;
 //    height: 174px;
       width: 336px;
-      height: 181px;
+      height: 200px;
   }
   .intro-wrapper {
-    height:181px;
+    height:200px;
   }
 }
 
